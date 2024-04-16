@@ -26,7 +26,7 @@ public class DecryptThread {
 	private static byte [] readTextInByte() {
 		byte[] text = {};
 		try {
-			text = Files.readAllBytes(Paths.get(""));
+			text = Files.readAllBytes(Paths.get(""));  //Insert here the path of your encrypted file
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
