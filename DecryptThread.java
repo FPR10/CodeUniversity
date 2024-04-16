@@ -26,7 +26,7 @@ public class DecryptThread {
 	private static byte [] readTextInByte() {
 		byte[] text = {};
 		try {
-			text = Files.readAllBytes(Paths.get("C:\\Users\\frff1\\Desktop\\Seminario\\document2024_B.encrypted"));
+			text = Files.readAllBytes(Paths.get(""));
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
