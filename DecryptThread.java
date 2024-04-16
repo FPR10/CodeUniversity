@@ -19,7 +19,7 @@ public class DecryptThread {
 
 	private static final int NUM_THREAD = 5;
 	private static final int RANGE_MAX = Integer.MAX_VALUE;
-	private static final String TARGET = "SISOP-corsoB";
+	private static final String TARGET = "";   //target string in the ecrypted text
 	private static byte[] cryptedText = readTextInByte();
 	private static AtomicBoolean found = new AtomicBoolean (false);
 	
